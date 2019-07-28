@@ -9,4 +9,4 @@ def prime(n):
             prime.append(attempt)
         attempt += 2
     return prime[-1]
-print(prime(6))
+print(prime(10001))
