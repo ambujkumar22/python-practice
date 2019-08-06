@@ -1,3 +1,5 @@
-a = 2345
-for i in range(len(str(a))):
-        print(str(a)[i])
+
+total = []
+for i in range(100,1001):
+        total.append(i)
+print(len(total))
