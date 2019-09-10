@@ -73,9 +73,7 @@ def func():
         else:
             num.append(right)
             index.append(ind + 1)
-    total = 0
-    for i in num:
-        total += i
-    print(total)
+
+    print(sum(num))
 
 func()
